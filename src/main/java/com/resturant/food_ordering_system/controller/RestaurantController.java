@@ -23,7 +23,7 @@ public class RestaurantController {
         return ResponseEntity.ok(dessert);
     }
 
-    @PostMapping("/v1/dessert")
+    @PostMapping("/v1/dessert1")
     public ResponseEntity<?>createDessert(@Valid @RequestBody DessertCreateDTO dessertCreateDTO){
         dessertService.createDessert(dessertCreateDTO);
         return  ResponseEntity.ok(new GenericResponse("Dessert Created"));

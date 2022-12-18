@@ -1,11 +1,11 @@
 package com.resturant.food_ordering_system.dto;
 
-import com.resturant.food_ordering_system.controller.RestaurantController;
 import com.resturant.food_ordering_system.entity.Dessert;
 
 import java.io.Serializable;
 
 public class DessertViewDTO implements Serializable {
+
     private static final long serialVersionUID = 1L;
 
     private final String name;

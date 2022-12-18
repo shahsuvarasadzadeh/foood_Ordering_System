@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "dessert")
 public class Dessert {
     @Id
-    private int id;
+    private Long id;
 
     @Column(name = "name", nullable = false, length = 50, unique = true)
     private String name;
